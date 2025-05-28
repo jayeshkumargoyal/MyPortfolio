@@ -21,10 +21,18 @@ import {
   starbucks,
   tesla,
   shopify,
+  crowdnav,
+  feelin,
   carrent,
   jobit,
   tripguide,
   threejs,
+  upper_bound,
+  amii,
+  uofa,
+  uasu,
+  trinity,
+  drivesafe
 } from "../assets";
 
 export const navLinks = [
@@ -55,10 +63,6 @@ const services = [
     title: "Technical Educator",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -118,55 +122,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Volunteer",
+    company_name: "Upper Bound AI Conference",
+    icon: upper_bound,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 20, 2025 - May 23, 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Volunteered at the event — helped organize, guide, or support attendees, which gave you a behind-the-scenes look.",
+      "Spoke with Dr. Richard Sutton, pioneer in Reinforcement Learning — gained valuable perspective on lifelong learning in AI.",
+      "Engaged with researchers, recruiters, and community builders from Amii and beyond.",
+      "Built connections with students and early-career professionals interested in the same space.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Teaching Assistant",
+    company_name: "University of Alberta",
+    icon: uofa,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2025 - Apr 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led lab sessions and office hours for over 100+ students, addressing questions and providing targeted assistance, leading to a 60% improvement in average lab scores.",
+      "Streamlined grading processes by creating automated scripts in Python, Bash and PyTest, reducing grading time by 35% and improving overall consistency and fairness.",
+      "Developed engaging learning materials, including interactive tutorials and quizzes, which enhanced student understanding and led to a 20% increase in engagement with difficult course topics.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Academic Tutor",
+    company_name: "University of Alberta Students' Union",
+    icon: uasu,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered clear, personalized academic support by breaking down complex concepts for diverse learners.",
+      "Adapted tutoring methods to suit individual learning styles and academic needs.",
+      "Created a welcoming and inclusive environment that encouraged student confidence and participation.",
+      "Communicated effectively and patiently to help students build problem-solving and critical thinking skills.",
+    ],
+  },
+  {
+    title: "Piano Tutor",
+    company_name: "Freelance",
+    icon: trinity,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Present",
+    points: [
+      "Taught piano to students of varying skill levels, focusing on technique, musicality, and theory.",
+      "Adapted lesson plans to match individual learning styles, pace, and musical goals.",
+      "Encouraged consistent practice and progress through positive reinforcement and clear guidance.",
+      "Helped students prepare for performances, exams, and personal milestones with confidence and skill.",
     ],
   },
 ];
@@ -200,67 +203,79 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CrowdNav",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Real-time crowd movement analysis: Uses image processing techniques to detect crowd density and movement patterns. Weighted image map generation: Converts live recordings into a heatmap representing crowd density. Optimal pathfinding: Implements Dijkstra's algorithm to compute the shortest and least crowded path from point A to point B. User-friendly input: Simply provide a live recording and select two points to generate a safe and efficient route.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HackED 2025",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: crowdnav,
+    source_code_link: "https://devpost.com/software/crowdnav",
+  },
+  {
+    name: "DriveSafe",
+    description:
+      "DriveSafe is an AI-powered application that combats driver fatigue by analyzing EEG data and facial cues in real time. Built with React and Flask, it uses neurotechnology and computer vision to detect drowsiness and deliver instant voice alerts. By combining live monitoring with weather data and trend analysis, DriveSafe helps drivers stay alert and safe on the road.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "natHACKS 2024",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: drivesafe,
+    source_code_link: "https://devpost.com/software/nathacks",
   },
   {
-    name: "Job IT",
+    name: "Feelin'",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Android application allows users to log, track, and share their moods. Users can record mood events with details like emotional state, triggers, and social context. The app provides features for viewing, editing, and filtering mood history, as well as following other users’ mood updates.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "android studio",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "figma",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "CMPUT 301",
+        color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: feelin,
+    source_code_link: "https://github.com/cmput301-w25/project-donotredeem",
   },
 ];
 

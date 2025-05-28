@@ -25,7 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import upper_bound from "./company/upper_bound.svg";
+import amii from "./company/amii.png";
+import uofa from "./company/uofa.png";
+import uasu from "./company/uasu.png";
+import trinity from "./company/trinity.png";
 
+import crowdnav from "./crowdnav.png";
+import feelin from "./feelin.png";
+import drivesafe from "./drivesafe.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,6 +64,14 @@ export {
   shopify,
   starbucks,
   tesla,
+  upper_bound,
+  amii,
+  uofa,
+  uasu,
+  trinity,
+  crowdnav,
+  feelin,
+  drivesafe,
   carrent,
   jobit,
   tripguide,
