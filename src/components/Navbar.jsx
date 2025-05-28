@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+
+// this is going to help us to navigate to different parts of the page
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -26,8 +28,12 @@ const Navbar = () => {
   }, []);
 
   return (
+
+    // this is the semantic nav tag
     <nav
       className={`${
+
+        // this is the special utility class that we created (on small devices it provides a bit more padding)
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
@@ -35,6 +41,8 @@ const Navbar = () => {
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
+
+          // the link is going to point to the forward of the page
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
@@ -42,7 +50,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Jayesh Kumar Goyal&nbsp;
             <span className='sm:block hidden'></span>
@@ -63,6 +71,7 @@ const Navbar = () => {
           ))}
         </ul>
 
+          {/* this is the mobile navigation bar */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}

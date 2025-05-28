@@ -1,3 +1,4 @@
+// this contains some primary/secondary/tertiary colors, box shadows, screens and the background image
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],

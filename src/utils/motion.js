@@ -1,3 +1,4 @@
+// here we have some framer motion animations that we can use throughout the project
 export const textVariant = (delay) => {
   return {
     hidden: {

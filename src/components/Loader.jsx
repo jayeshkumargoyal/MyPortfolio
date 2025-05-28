@@ -1,3 +1,4 @@
+// this is the loader icon that appears when the 3D model takes time to render
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {

@@ -29,6 +29,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
+// for mobile devices
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 

@@ -1,3 +1,5 @@
+// this is where the whole content of the application will be
+// services, techonologies, experiences, testimonials, projects
 import {
   mobile,
   backend,
@@ -10,7 +12,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  nodejs, 
   mongodb,
   git,
   figma,
@@ -42,21 +44,21 @@ export const navLinks = [
 
 const services = [
   {
+    title: "AI/ML Developer",
+    icon: mobile,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Technical Educator",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [

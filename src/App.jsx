@@ -4,6 +4,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
+    // this component here is the one that will allow to route throughout the whole website
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
@@ -15,6 +16,8 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
+
+        {/* this one is for displaying the stars*/}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
