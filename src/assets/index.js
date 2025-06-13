@@ -30,6 +30,8 @@ import amii from "./company/amii.png";
 import uofa from "./company/uofa.png";
 import uasu from "./company/uasu.png";
 import trinity from "./company/trinity.png";
+import pm from "./company/pm.webp";
+import mckins from "./company/mckins.png";
 
 import crowdnav from "./crowdnav.png";
 import feelin from "./feelin.png";
@@ -69,6 +71,8 @@ export {
   uofa,
   uasu,
   trinity,
+  pm,
+  mckins,
   crowdnav,
   feelin,
   drivesafe,

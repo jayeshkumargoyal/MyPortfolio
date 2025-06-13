@@ -32,7 +32,9 @@ import {
   uofa,
   uasu,
   trinity,
-  drivesafe
+  drivesafe,
+  pm,
+  mckins
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +56,10 @@ const services = [
   {
     title: "AI/ML Developer",
     icon: mobile,
+  },
+  {
+    title: "Software Developer",
+    icon: creator,
   },
   {
     title: "Web Developer",
@@ -121,6 +127,30 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "AI Engineer Intern",
+    company_name: "PMASSISTANT.AI",
+    icon: pm,
+    iconBg: "#383E56",
+    date: "May 2025 - Present",
+    points: [
+      "Built & shipped interactive React + FastAPI modules for AI project-management platform, turning live meeting transcripts into real-time summaries and action items and integrating with Google Workspace.",
+      "Ran iterative evaluation studies on multiple generative-AI models (GPT-4o & open-source LLMs), improving action-item extraction precision by 18% and presenting findings to PMs, designers, and execs to drive model-selection decisions for the public beta.",
+      "Refactored backend for scalability - async I/O, caching, and a GitHub-Act ions CI/CD pipeline which cut API latency by 40%.",
+    ],
+  },
+  {
+    title: "Lead Forward Program",
+    company_name: "McKinsey & Company",
+    icon: mckins,
+    iconBg: "#ffffff",
+    date: "Apr 2025 - Jun 2025",
+    points: [
+      "Structured problem-solving: Trained in McKinsey’s hypothesis-driven, MECE approach to break down ambiguous tech issues into testable sub-problems and prioritize fixes efficiently.",
+      "Persuasive technical communication: Completed the Communicating for Impact module, sharpening the ability to translate complex analyses into concise narratives and visuals that move diverse stakeholders to action.",
+      "Digital fluency & adaptability: Built a personalized “My Digital Toolkit,” gaining confidence in selecting emerging software tools, automating routine workflows, and collaborating effectively across a global, virtual cohort.",
+    ],
+  },
   {
     title: "Volunteer",
     company_name: "Upper Bound AI Conference",
