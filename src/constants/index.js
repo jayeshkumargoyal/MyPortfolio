@@ -33,7 +33,7 @@ import {
   uasu,
   trinity,
   drivesafe,
-  pm,
+  PM,
   mckins
 } from "../assets";
 
@@ -130,7 +130,7 @@ const experiences = [
   {
     title: "AI Engineer Intern",
     company_name: "PMASSISTANT.AI",
-    icon: pm,
+    icon: PM,
     iconBg: "#383E56",
     date: "May 2025 - Present",
     points: [
